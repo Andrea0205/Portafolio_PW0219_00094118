@@ -1,0 +1,151 @@
+body {
+  width: auto;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/57692cdd20099e8935b94bd2/1552660102237-AC1ZIB9PHZQYRN0NNRXZ/ke17ZwdGBToddI8pDm48kK60W-ob1oA2Fm-j4E_9NQB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2Mh5VMMOxnTbph8FXiclivDQnof69TlCeE0rAhj6HUpXkw/Sophie+Tea+Art+Screensaver);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 1em 5%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn {
+  color: white;
+  margin: 0.5em;
+  padding: 0.8em;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+}
+
+.source {
+  background: #673AB7;
+}
+
+.site {
+  background: #3F51B5;
+}
+
+.faq {
+  background: #D81B60;
+}
+
+main {
+  width: 50%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main > img {
+  width: 50%;
+  height: auto;
+  margin: 1em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+main hr {
+  width: 75%;
+  height: auto;
+  background: white;
+  height: 7px;
+  border-radius: 5px;
+  border: none;
+}
+
+main .logos {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main .logos > img {
+  width: 5em;
+  height: 5em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0.5em;
+  background: whitesmoke;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+main .logos:hover {
+  opacity: 1;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer > span {
+  padding: 0.7em;
+  color: whitesmoke;
+  font-size: 0.8em;
+  text-decoration: underline;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */

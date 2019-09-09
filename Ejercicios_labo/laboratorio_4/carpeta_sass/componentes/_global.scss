@@ -1,0 +1,28 @@
+
+$color-primary: #673AB7;
+$color-secondary: #3F51B5;
+$color-tertiary: #D81B60;
+$color-dark: black;
+$color-white: white;
+
+@mixin set-dimensions($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+
+body {
+  @include set-dimensions(auto, 100vh);
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/57692cdd20099e8935b94bd2/1552660102237-AC1ZIB9PHZQYRN0NNRXZ/ke17ZwdGBToddI8pDm48kK60W-ob1oA2Fm-j4E_9NQB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2Mh5VMMOxnTbph8FXiclivDQnof69TlCeE0rAhj6HUpXkw/Sophie+Tea+Art+Screensaver);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 1em 5%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
